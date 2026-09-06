@@ -131,10 +131,6 @@ let personajeY = 350;
   textSize(36);
   text("JUGAR", width / 2, 300);
   text("INSTRUCCIONES", width / 2, 380);
-  
-  fill(255, 255, 0);
-  textSize(14);
-  text("X: " + mouseX + " Y: " + mouseY, 100, 30);
 }
  
  
@@ -172,10 +168,6 @@ let personajeY = 350;
 
   fill(0);
   triangle(50, 550, 80, 530, 80, 570);
-
-  fill(255, 255, 0);
-  textSize(14);
-  text("X: " + mouseX + " Y: " + mouseY, 100, 30);
 }
 
 
